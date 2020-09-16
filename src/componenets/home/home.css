@@ -1,0 +1,15 @@
+#main-dev {
+  display: flex;
+  justify-content: center;
+}
+img {
+  width: 300px;
+  border-radius: 10px;
+}
+h2 {
+  color: #05386b;
+}
+/* #left-div {
+}
+#right-div {
+} */

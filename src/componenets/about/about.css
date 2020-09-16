@@ -1,0 +1,28 @@
+/* body {
+  text-align: center;
+} */
+.aboutDiv {
+  display: flex;
+  font-size: 20px;
+  /* width: 1000px; */
+  /* margin-left: auto; */
+}
+.aboutDiv > div > h1 {
+  width: 500px;
+  font-size: 50px;
+  color: #05386b;
+  font-weight: bold;
+}
+.blueColor {
+  color: #05386b;
+}
+button {
+  background-color: #05386b;
+  width: 130px;
+  height: 45px;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  border: 1.5px solid white;
+}

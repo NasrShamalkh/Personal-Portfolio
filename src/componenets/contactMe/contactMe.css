@@ -1,0 +1,13 @@
+.blueColor {
+  color: #05386b;
+}
+#mainDiv {
+  text-align: center;
+  font-size: 120%;
+}
+hr {
+  width: 95%;
+  height: 0.8px;
+  background-color: white;
+  margin-top: 60px;
+}
