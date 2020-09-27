@@ -102,3 +102,8 @@ button {
 #developerImageDiv {
   margin: auto 0;
 }
+@media only screen and (max-width: 500px) {
+  .aboutDiv {
+    flex-direction: column;
+  }
+}
