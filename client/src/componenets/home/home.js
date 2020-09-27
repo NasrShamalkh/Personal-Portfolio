@@ -22,7 +22,7 @@ class Home extends React.Component {
     window.addEventListener('resize', this.handleResize);
   }
   render() {
-    if (this.state.windowWidth < 500) {
+    if (this.state.windowWidth < 700) {
       return (
         <div id='main-dev'>
           <div id='left-div'>

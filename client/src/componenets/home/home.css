@@ -62,3 +62,24 @@
     font-size: 23px;
   }
 }
+@media only screen and (max-width: 700px) and (min-width: 500px) {
+  #main-dev {
+    /* border: 1px solid red; */
+    max-width: 100%;
+    display: initial;
+  }
+  #left-div {
+    /* border: 1px solid white; */
+    text-align: center;
+  }
+  #right-div {
+    /* border: 1px solid blue; */
+    text-align: center;
+  }
+  .font2 {
+    font-size: 90%;
+  }
+  .font3 {
+    font-size: 23px;
+  }
+}
