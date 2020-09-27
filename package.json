@@ -23,7 +23,9 @@
   "homepage": "https://github.com/NasrShamalkh/personal-portfolio#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "materialize-css": "^1.0.0-rc.2"
+    "jquery": "^3.5.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "react-router-transition": "^2.0.0"
   },
   "devDependencies": {
     "concurrently": "^5.3.0",

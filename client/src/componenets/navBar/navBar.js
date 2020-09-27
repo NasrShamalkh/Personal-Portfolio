@@ -9,10 +9,10 @@ class NavBar extends React.Component {
     return (
       <nav>
         <div class='nav-wrapper'>
-          <NavLink class='brand-logo' id='name-logo' to='/'>
+          <NavLink id='name-logo' to='/'>
             <img alt='Nasr logo' id='NSlogo' src={NSlogo} />
           </NavLink>
-          <ul id='nav-mobile' class='right hide-on-med-and-down'>
+          <ul id='nav-mobile' class='right'>
             <li>
               <NavLink id='navLinks' to='/'>
                 Home
@@ -34,4 +34,5 @@ class NavBar extends React.Component {
     );
   }
 }
+
 export default NavBar;

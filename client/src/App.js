@@ -6,16 +6,22 @@ import Home from './componenets/home/home.js';
 import About from './componenets/about/about.js';
 import NavBar from './componenets/navBar/navBar.js';
 import Blogs from './componenets/blogs/blogs.js';
+import { AnimatedSwitch } from 'react-router-transition';
 
 function App() {
   return (
     <Router>
       <NavBar />
-      <Switch>
+      <AnimatedSwitch
+        atEnter={{ opacity: 0.2 }}
+        atLeave={{ opacity: 0 }}
+        atActive={{ opacity: 1 }}
+        className='switch-wrapper'
+      >
         <Route component={Home} exact path='/' />
         <Route component={About} exact path='/about' />
         <Route component={Blogs} exact path='/blogs' />
-      </Switch>
+      </AnimatedSwitch>
     </Router>
   );
 }
