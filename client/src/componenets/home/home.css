@@ -1,15 +1,43 @@
 #main-dev {
   display: flex;
   justify-content: center;
+  margin-top: 30px;
 }
-img {
+.nasrImage {
   width: 300px;
-  border-radius: 10px;
+  border-radius: 15%;
+  border: 0.2px solid #05386b;
 }
-h2 {
+
+#left-div {
+  margin-right: 15px;
+}
+.font1 {
+  font-family: 'Monotype Corsiva';
+  font-size: 45px;
   color: #05386b;
 }
-/* #left-div {
+.font2 {
+  font-family: 'Forte';
+  font-size: 70px;
+  text-shadow: 2px 2px 4px #05386b;
 }
-#right-div {
-} */
+.font3 {
+  font-size: 30px;
+  color: #05386b;
+}
+.homeContactImage1 {
+  width: 60px;
+}
+.homeContactImage2 {
+  width: 80px;
+}
+.homeContactImage3 {
+  width: 71px;
+  padding-bottom: 4px;
+}
+#contactImageDiv {
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 25px;
+}

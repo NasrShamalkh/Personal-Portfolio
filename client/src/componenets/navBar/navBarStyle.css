@@ -1,35 +1,19 @@
 nav {
   background-color: #5cdb95;
   color: #05386b;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-size: 20px;
-  text-decoration: none;
-  font-weight: bold;
-  /* height: 80px; */
 }
-.navLink {
-  color: #05386b;
-  text-decoration: none;
-}
-#links {
+#nav-mobile {
+  font-size: 25px;
   display: flex;
   justify-content: space-around;
-  width: 500px;
+  width: 30%;
+}
+#NSlogo {
+  width: 65px;
+  margin-top: 2px;
+  margin-left: 7px;
+}
+#navLinks {
+  font-size: 25px;
   color: #05386b;
-}
-ul {
-  list-style: none;
-}
-#name-logo {
-  position: relative;
-  top: 25%;
-  width: 100px;
-  left: 50%;
-}
-hr {
-  background-color: #edf5e1;
-  width: 90%;
-  height: 3px;
 }
