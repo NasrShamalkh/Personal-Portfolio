@@ -23,6 +23,9 @@ class NavBar extends React.Component {
                 Blogs
               </NavLink>
             </li>
+            <NavLink id='navLinks' to='/projects'>
+              Projects
+            </NavLink>
             <li>
               <NavLink id='navLinks' to='/about'>
                 about

@@ -4,7 +4,6 @@ import './home.css';
 import githubLogo from '../about/githubLogo.png';
 import linkedinLogo from '../about/linkedInLogo.png';
 import documentLogo from './documentLogo.png';
-import { thistle } from 'color-name';
 
 class Home extends React.Component {
   state = {

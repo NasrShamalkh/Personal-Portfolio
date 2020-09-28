@@ -24,13 +24,13 @@ nav {
   }
   #nav-mobile {
     /* border: 1px solid blue; */
-    width: 55%;
+    width: 65%;
   }
   #NSlogo {
     width: 55px;
   }
   #navLinks {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: bold;
   }
 }

@@ -172,7 +172,9 @@ class About extends React.Component {
           </div>
         </div>
         <div id='lastDiv' className='aboutDiv'>
-          <h5>also find me here...</h5>
+          <h5>
+            <i>Also find me here...</i>
+          </h5>
           <ul>
             <li>
               <a
