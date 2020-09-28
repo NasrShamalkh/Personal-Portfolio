@@ -62,7 +62,7 @@ class Home extends React.Component {
                 ></img>
               </a>
               <a
-                href='https://drive.google.com/file/d/1WB4FJCLhVG4av9Dmehd5vhSWBA0DFtzk/view?usp=sharing'
+                href='https://drive.google.com/file/d/1LL_Wx4DNWqjmxeULlyU37aBliyKFA18N/view?usp=sharing'
                 target='_blank'
                 rel='noopener noreferrer'
               >

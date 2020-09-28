@@ -104,7 +104,7 @@ class About extends React.Component {
             </p>
             <span>If you're interested in knowing me more: </span>
             <a
-              href='https://drive.google.com/file/d/1WB4FJCLhVG4av9Dmehd5vhSWBA0DFtzk/view?usp=sharing'
+              href='https://drive.google.com/file/d/1LL_Wx4DNWqjmxeULlyU37aBliyKFA18N/view?usp=sharing'
               target='_blank'
               rel='noopener noreferrer'
             >
