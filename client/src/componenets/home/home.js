@@ -62,7 +62,7 @@ class Home extends React.Component {
                 ></img>
               </a>
               <a
-                href='https://drive.google.com/file/d/1LL_Wx4DNWqjmxeULlyU37aBliyKFA18N/view?usp=sharing'
+                href='https://drive.google.com/file/d/1Zsi1aRzVCBv_z7D3uBrPXrSaEL2OQ82F/view?usp=sharing'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -112,7 +112,7 @@ class Home extends React.Component {
                 ></img>
               </a>
               <a
-                href='https://drive.google.com/file/d/1LL_Wx4DNWqjmxeULlyU37aBliyKFA18N/view?usp=sharing'
+                href='https://drive.google.com/file/d/1Zsi1aRzVCBv_z7D3uBrPXrSaEL2OQ82F/view?usp=sharing'
                 target='_blank'
                 rel='noopener noreferrer'
               >
