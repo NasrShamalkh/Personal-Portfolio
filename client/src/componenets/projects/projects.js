@@ -6,6 +6,7 @@ import sideMenuImage from './sideMenuImage.png';
 import githubLogo from './githubLogo.png';
 import linkLogo from './linkLogo.png';
 import videoLogo from './videoLogo.png';
+import regex_query_tool from './regex-query-tool.png';
 
 class Projects extends React.Component {
   state = {};
@@ -170,6 +171,61 @@ class Projects extends React.Component {
                 information based on real-time data using an outside api to
                 provide the information. <br></br>
                 Role: Backend developer
+              </p>
+            </div>
+          </div>
+
+          {/* BEGINNING OF CARD  */}
+
+          <div class='card sticky-action'>
+            <div class='card-content'>
+              <span id='card-title-style' class='card-title activator'>
+                Regex Query Tool
+              </span>
+            </div>
+            <div class='card-image waves-effect waves-block waves-light'>
+              <img
+                alt='Side Menu app'
+                id='cardImage'
+                class='activator'
+                src={regex_query_tool}
+              ></img>
+            </div>
+            <div class='card-action'>
+              <div className='card_action_area'>
+                <a
+                  href='https://github.com/NasrShamalkh/regex_query_tool'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img class='githubLogo' src={githubLogo} alt='' />
+                </a>
+                <a
+                  href='https://nasrregexquerytool.herokuapp.com'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img class='card_actionLink' src={linkLogo} alt='' />
+                </a>
+                <a
+                  href='https://drive.google.com/file/d/1K7DzVHKypmaZxLA5v_dQ9huEoZzCoQ5e/view?usp=sharing'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img class='card_actionLink' src={videoLogo} alt='' />
+                </a>
+              </div>
+            </div>
+            <div class='card-reveal'>
+              <span className='blackColor' class='card-title'>
+                Regex Query Tool<i class='material-icons right'>close</i>
+              </span>
+              <p className='blackColor'>
+                A Regex search tool created using mainly Django, React and
+                Redux. It is used to query for regex patterns in text and
+                highlight the returned output. Users can search and replace for
+                inputed queries. Users can also save and manage thier queries
+                using their presonal accounts.
               </p>
             </div>
           </div>
